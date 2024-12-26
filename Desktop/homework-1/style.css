@@ -1,0 +1,73 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(189, 242, 244);
+}
+
+
+header {
+    background-image: url('images/IMG_0020.JPG');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+
+
+
+table,
+tr,
+th,
+td {
+    border: 1px, solid, black;
+
+}
+
+
+h1 {
+    text-decoration: dotted;
+}
+
+p span {
+    font-style: oblique;
+}
+
+a {
+    color: rgb(19, 23, 253);
+    text-decoration: double;
+}
+
+.link-bold {
+    font-weight: 900;
+    font-size: x-large;
+}
+
+
+.test {
+    border: 2px, solid, black;
+    text-align: center;
+    border-radius: 30px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 50px 20px 700px;
+}
+
+select {
+    height: 40px;
+    min-width: 500px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+option {
+    margin: 10px 0;
+}
+textarea {
+    
+}
